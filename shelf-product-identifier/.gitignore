@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+myenv/
+.myenv/
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files (large files)
+*.pt
+*.pth
+*.onnx
+*.weights
+models/*.pt
+models/*.pth
+
+# Knowledge base embeddings (generated files)
+data/knowledge_base_embeddings.pkl
+data/knowledge_base_dino2.pkl
+data/knowledge_base_resnet18.pkl
+*.pkl
+
+# Prediction outputs (temporary results)
+data/testing*/
+data/retail*/
+data/train_*/
+data/*/crops/
+data/*/predictions.txt
+data/*/predictions.csv
+data/*/predictions_detailed.csv
+data/*/predictions_ensemble.csv
+
+# YOLO outputs
+runs/
+data/*/predict.jpg
+data/*/labels/
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Large data files (optional - uncomment if you don't want to track)
+# data/knowledge_base/crops/object/**/*.jpg
+# data/img/*.jpg
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
